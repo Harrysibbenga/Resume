@@ -6,7 +6,7 @@
 /*-------------------------------Colors*/
 
 .bg-color-name-tile {
-    background-color: #676767;
+    background: url("http://www.wallpapers13.com/wp-content/uploads/2015/12/Real-space-wallpaper-HD-1440x900.jpg");
 }
 
 .bg-color-three-reasons {
@@ -48,8 +48,8 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    background-color: #525252;
     color: #555555;
+    background-color: #000000;
 }
 
 /*-------------------------------Special Paddings/Margins/Text ---applied throughout the document*/
@@ -88,6 +88,11 @@ h4 {
     margin-bottom: 40px;
 }
 
+#important-words {
+    font-style: italic;
+    font-weight: 400; 
+    font-family: "Exo", sans-serif;
+}    
 /*-------------------------------Heading*/
 
 header {
@@ -178,10 +183,10 @@ header {
 }
 
 
-/*-------------------------------Footer*/
+/*-----------------------------------Footer*/
 
 footer {
-    background-color: #525252;
+    background: url("http://www.wallpapers13.com/wp-content/uploads/2015/12/Real-space-wallpaper-HD-1440x900.jpg");
     color: #fafafa;
     min-height: 120px;
     margin: 0;
