@@ -1,5 +1,5 @@
-## mini Project With Guidance
+## Mini Project With Guidance
 
-## Added a few pictuers to personalise this also its linked to my linkedIn account.
+## Added a few pictuers to personalise this, its also linked to my linkedIn account.
 
 ## Enjoy !!!
