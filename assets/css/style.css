@@ -5,8 +5,16 @@
 
 /*-------------------------------Colors*/
 
-.bg-color-name-tile {
+.bg-color-name-title {
     background: url("http://www.wallpapers13.com/wp-content/uploads/2015/12/Real-space-wallpaper-HD-1440x900.jpg");
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
 }
 
 .bg-color-three-reasons {
@@ -30,7 +38,7 @@
 }
 
 .ul-menu-color-home {
-    background-color: #e67e22;
+    background-color: #ff4500;
 }
 
 .ul-menu-color-resume {
@@ -41,8 +49,16 @@
     background-color: #3498db;
 }
 
+.ul-menu-color-interests {
+    background-color: #ff0000;
+}
+
+.ul-menu-color-github {
+    background-color: #000080;
+}
+
 .ul-menu-color-download-cv {
-    background-color: #525252;
+    background-color: #ffd700;
 }
 
 body {
@@ -90,9 +106,10 @@ h4 {
 
 #important-words {
     font-style: italic;
-    font-weight: 400; 
+    font-weight: 400;
     font-family: "Exo", sans-serif;
-}    
+}
+
 /*-------------------------------Heading*/
 
 header {
@@ -200,7 +217,7 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover {
-    color: #e84610;
+    color: #ff4500;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -228,7 +245,7 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li a i:hover {
-    background-color: #e84610;
+    background-color: #ff4500;
 }
 
 #footer-details {
@@ -374,7 +391,7 @@ footer .cv-pdf i:hover {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #e84610;
+    background-color: #ff4500;
     color: #fafafa;
 }
 
@@ -387,7 +404,6 @@ button[type="submit"] {
         display: table-cell;
     }
     /*Used for developing purposes but it makes the mobile virsion show 2 columns so we need to use media quieres for higher res*/
-    
     .center-form {
         padding-top: 30px;
         min-height: 240px;
@@ -395,4 +411,10 @@ button[type="submit"] {
         max-width: 50%;
     }
 
+}
+
+/*-------------------------------------Map*/
+
+#map {
+    min-height: 360px;
 }
